@@ -31,7 +31,7 @@
     <script src="js/blog/globalConfig.js"></script>
     <script src="js/modernizr.custom.js"></script>
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140852536-1"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140852536-1"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -40,7 +40,7 @@
 
         ga('create', 'UA-140852536-1', 'auto');
         ga('send', 'pageview');
-    </script>
+    </script> -->
     <!-- End Google Analytics -->
     <style>
         a:link {
@@ -99,8 +99,6 @@
     <div class="menu-item">导出</div>
 </div>
 
-
-
 <div class="content-body">
     <div class="container">
         <div class="row">
@@ -155,20 +153,19 @@
         </ul>
     </nav>
 </div>
-<!--<script>-->
-<!--    window.oncontextmenu = function(e){-->
-<!--        e.preventDefault(); //阻止浏览器自带的右键菜单显示-->
-<!--        var menu = document.getElementById("right-menu");-->
-<!--        menu.style.display = "block"; //将自定义的“右键菜单”显示出来-->
-<!--        menu.style.left = e.clientX + "px";  //设置位置，跟随鼠标-->
-<!--        menu.style.top = e.clientY+"px";-->
-<!--    }-->
-<!--    window.onclick = function(e){ //点击窗口，右键菜单隐藏-->
-<!--        var menu = document.getElementById("right-menu");-->
-<!--        menu.style.display = "none";-->
-<!--    }-->
-
-<!--</script>-->
+<script>
+    window.oncontextmenu = function(e){
+        e.preventDefault(); //阻止浏览器自带的右键菜单显示
+        var menu = document.getElementById("right-menu");
+        menu.style.display = "block"; //将自定义的“右键菜单”显示出来
+        menu.style.left = e.clientX + "px";  //设置位置，跟随鼠标
+        menu.style.top = e.clientY+"px";
+    }
+    window.onclick = function(e){ //点击窗口，右键菜单隐藏
+        var menu = document.getElementById("right-menu");
+        menu.style.display = "none";
+    }
+</script>
 <script src="js/script.js"></script>
 <script src="js/blog/hot.js"></script>
 <script type="text/javascript" src="https://cdn.staticfile.org/layer/2.3/layer.js"></script>

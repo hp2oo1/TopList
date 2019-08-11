@@ -7,3 +7,10 @@ create table mine.hotData (
 ) charset=utf8mb4;
 create index hotData__index_key on mine.hotData (dataType);
 create index hotData__index_name on mine.hotData (name);
+
+insert into mine.hotdata(dataType, name)
+values
+('TieBa', ''),
+('V2EX', ''),
+('ChouTi', ''),
+('ITHome', '');

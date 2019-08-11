@@ -1,0 +1,7 @@
+Config/Mysql.go
+
+.vscode
+App/__debug_bin
+
+*.*~
+*.swp
